@@ -103,6 +103,11 @@ body{
     height: auto;
     object-fit: cover;
 }
+.showcas-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 @keyframes slide {
     0% { transform: translateX(0); }
     45% { transform: translateX(0); }
@@ -121,11 +126,6 @@ body{
         width: 92%;
         max-height: 180px;
     }
-}
-.showcas-img{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
 }
 .flash-top{
     margin-top: 30px;
